@@ -1,0 +1,58 @@
+---
+layout: post
+title: PYPI
+date: '2014-12-03T00:10:00.000-08:00'
+author: John Andersen
+tags:
+- python
+- package development
+modified_time: '2015-04-09T08:44:51.496-07:00'
+blogger_id: tag:blogger.com,1999:blog-8439713708369185140.post-6365692619383816047
+blogger_orig_url: http://jsapdx.blogspot.com/2014/12/pypi.html
+---
+
+The Python Package index and how to upload a package.
+
+1. You need an account on [PyPi][pypi-url]
+
+2. Put your code on github and add tags
+
+{% highlight bash %}
+git tag 0.1 -m "Message"
+git push --tags origin master
+{% endhighlight %}
+
+3. Create ~/.pypirc configuration file
+
+{% highlight bash %}
+[distutils] # this tells distutils what package indexes you can push to
+index-servers =
+    pypi
+    pypitest
+
+[pypi]
+repository: https://pypi.python.org/pypi
+username: <your_username>
+password: <your_password>
+
+[pypitest]
+repository: https://testpypi.python.org/pypi
+username: <your_username>
+{% endhighlight %}
+
+4. For registering:
+
+{% highlight bash %}
+python setup.py register -r pypi
+{% endhighlight %}
+
+5. For uploading:
+
+{% highlight bash %}
+python setup.py sdist upload -r pypi
+{% endhighlight %}
+
+[Reference][reference-url]
+
+[pypi-url]: https://pypi.python.org/pypi
+[reference-url]: http://peterdowns.com/posts/first-time-with-pypi.html

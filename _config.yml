@@ -1,0 +1,12 @@
+# Site settings
+title: John Andersen
+email: johnandersenpdx@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  pdxjohnny's development blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://pdxjohnny.github.io" # the base hostname & protocol for your site
+twitter_username: pdxjohnny
+github_username:  pdxjohnny
+
+# Build settings
+markdown: kramdown
