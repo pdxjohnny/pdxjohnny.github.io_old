@@ -91,6 +91,8 @@ host and port. notify.py will run as a daemon and watch the output of build
 server (app.py). It will send you a little notification in the top right
 corner of your screen notifying you when builds start and are finished. This way you don't have to watch the output of sillystream client.
 
+![webhook-commit](/assets/webhook_commit.gif)
+
 {% highlight bash %}
 python docker/gitlab_webhooks/notify.py
 {% endhighlight %}
