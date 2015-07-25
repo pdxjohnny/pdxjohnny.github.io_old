@@ -23,9 +23,9 @@ Web Hook server
 
 If you want to set up automated builds you can clone my [docker repo][docker-repo-url].
 
-```
+{% highlight bash %}
 git clone https://github.com/pdxjohnny/docker.git
-```
+{% endhighlight %}
 
 The files we are interested in are in docker/gitlab_webhooks
 
