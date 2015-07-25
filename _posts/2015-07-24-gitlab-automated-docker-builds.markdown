@@ -98,6 +98,7 @@ python docker/gitlab_webhooks/notify.py
 {% endhighlight %}
 > I've only tested this on ubuntu
 
+![webhook-commit](/assets/docker_build_done.gif)
 
 Gitlab Web Hooks
 ---
