@@ -11,5 +11,7 @@ Here is my gpg public key [john.gpg][pub-key]
 This my [fingerprint](https://twitter.com/pdxjohnny/status/632282735365652480)
 `B9F5 BD05 CEEA 7B2C C095  D644 C445 3886 9D7B D062`
 
+Here are my [bookmarks][bookmarks] they have lots of good links.
 
 [pub-key]: /assets/john.gpg
+[bookmarks]: /assets/bookmarks.html
