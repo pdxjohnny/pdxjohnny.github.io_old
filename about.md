@@ -4,14 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I'll occasionally be in the #docker irc channel on freenode
+Here is my gpg [public key][pub-key]
 
-Here is my gpg public key [john.gpg][pub-key]
+This my `C818 9AE8 2170 FB95 BE26 712C CE2C 7260 9F5B A7A9`
 
-This my [fingerprint](https://twitter.com/pdxjohnny/status/632282735365652480)
-`B9F5 BD05 CEEA 7B2C C095  D644 C445 3886 9D7B D062`
+Here are my [bookmarks][bookmarks] they are a great resource.
 
-Here are my [bookmarks][bookmarks] they have lots of good links.
-
-[pub-key]: /assets/john.gpg
+[pub-key]: https://keybase.io/pdxjohnny/key.asc
 [bookmarks]: /assets/bookmarks.html
